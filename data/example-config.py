@@ -441,6 +441,11 @@ config = {
             # Example: If set to "MyTag", a release might become: Movie 2003 1080p WEB-DL DDP5.1 H.264-OriginalGroup DUAL-MyTag
             "tag_for_custom_release": "",
         },
+        "C411": {
+            # Announce URL with your passkey - find in C411 settings
+            "announce_url": "",
+            "anon": False,
+        },
         "CZ": {
             # Instead of using the tracker acronym for folder name when sym/hard linking, you can use a custom name
             "link_dir_name": "",
